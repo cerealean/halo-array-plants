@@ -1,0 +1,6 @@
+  <div *ngFor="let plant of plants" class="column is-text-centered">
+    Name: {{plant.name}}<br/>
+    Caregiver: {{plant.caregiver}}<br/>
+    Date: {{plant.lastWatered | date:"MM/dd hh:mm"}}<br/>
+    Height: {{plant.heightInCentimeters}}cm<br/>
+  </div>
